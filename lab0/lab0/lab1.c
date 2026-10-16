@@ -2,20 +2,6 @@
 //<locale.h> для локализации 1.4
 #include <locale.h>
 
-//4. Объедините созданные подпрограммы в новом проекте
-void zadanie1(void);
-void zadanie2(void);
-void zadanie3(void);
-void main()
-{
-	//1.4 Рус.яз
-	setlocale(LC_CTYPE, "RUS");
-	zadanie1();
-	zadanie2();
-	zadanie3();
-	//1.6 1.6 Добавьте оператор return 0;
-	return 0;
-}
 void zadanie1()
 {
 	//Повторите код примера 1.
@@ -54,4 +40,16 @@ void zadanie3()
 	puts(" / | |_|  | | / |    /  | | | | | | | | ");
 	puts("   |   |. |_|   | . /_  |_| |_| |_| |_| ");
 
+}
+
+//4. Объедините созданные подпрограммы в новом проекте
+void main()
+{
+	//1.4 Рус.яз
+	setlocale(LC_CTYPE, "RUS");
+	zadanie1();
+	zadanie2();
+	zadanie3();
+	//1.6 1.6 Добавьте оператор return 0;
+	return 0;
 }
