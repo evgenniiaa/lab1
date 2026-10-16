@@ -46,7 +46,7 @@ void zadanie3()
 void main()
 {
 	//1.4 Рус.яз
-	setlocale(LC_CTYPE, "RUS");
+	setlocale(LC_CTYPE, ".UTF-8");
 	zadanie1();
 	zadanie2();
 	zadanie3();
