@@ -3,6 +3,9 @@
 #include <locale.h>
 
 //4. Объедините созданные подпрограммы в новом проекте
+void zadanie1(void);
+void zadanie2(void);
+void zadanie3(void);
 void main()
 {
 	//1.4 Рус.яз
