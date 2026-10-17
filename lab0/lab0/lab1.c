@@ -43,7 +43,7 @@ void zadanie3()
 }
 
 //4. Объедините созданные подпрограммы в новом проекте
-void main()
+int main()
 {
 	//1.4 Рус.яз
 	setlocale(LC_CTYPE, ".UTF-8");
